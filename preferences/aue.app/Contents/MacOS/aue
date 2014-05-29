@@ -1,0 +1,7 @@
+#!/bin/bash
+
+defaults write ~/Library/Preferences/org.w0lf.vpk autoCheck 1
+defaults write ~/Library/Preferences/org.w0lf.vpk lastupdateCheck 0
+
+#osascript -e 'tell application "System Events" to keystroke "w" using command down'
+osascript -e 'tell application "vpk" to activate'
